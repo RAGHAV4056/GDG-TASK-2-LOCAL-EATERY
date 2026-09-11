@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Kadhai Room — a neighbourhood Indian eatery in Khan Market, New Delhi.">
+<title>KADHAI ROOM — A little room. A lot of flavour.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700;900&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="announcement"><span>KHAN MARKET · NEW DELHI</span><strong>TONIGHT: 6 PM — 11 PM</strong><span>WALK-INS WELCOME</span></div>
+<header class="nav">
+  <a class="logo" href="#top" aria-label="Kadhai Room home"><span class="logo-mark">K</span><span>KADHAI<br><i>ROOM</i></span></a>
+  <nav id="navLinks"><a href="#menu">Menu</a><a href="#story">Story</a><a href="#visit">Visit</a><a href="#contact">Contact</a></nav>
+  <button class="book-top" data-open-booking>Book a table <span>↗</span></button>
+  <button class="hamburger" aria-label="Open navigation" aria-expanded="false">☰</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">01 / THE NEIGHBOURHOOD TABLE</p>
+    <h1>A little room.<br><em>A lot of</em><br>flavour.</h1>
+    <p class="hero-text">Indian comfort food with Delhi energy. Smoky grills, slow curries, cold glasses and the kind of table where dinner rarely ends on time.</p>
+    <div class="hero-actions"><a class="primary" href="#menu">Explore the menu <span>↓</span></a><button class="text-link" data-open-booking>Reserve a seat <span>↗</span></button></div>
+    <div class="open-row"><span class="status-dot"></span><div><b>OPEN THIS EVENING</b><small>6 PM — 11 PM · Tue to Sun</small></div></div>
+  </div>
+  <div class="hero-art">
+    <div class="hero-image"></div>
+    <div class="stamp"><small>EST.</small><b>2024</b><span>DELHI<br>INDIA</span></div>
+    <div class="hero-note">HOT<br>KADHAI<br>CLUB</div>
+    <div class="image-caption">01 — CHARCOAL / MASALA / BUTTER</div>
+  </div>
+</section>
+
+<div class="marquee"><div>CHARCOAL <b>✳</b> MASALA <b>✳</b> CRUNCH <b>✳</b> TANDOOR <b>✳</b> COMFORT <b>✳</b> CHARCOAL <b>✳</b> MASALA <b>✳</b> CRUNCH <b>✳</b></div></div>
+
+<section class="intro" id="story">
+  <div class="section-tag">02 / OUR STORY</div>
+  <div class="intro-content"><p class="display">We took the food we grew up with and gave it a <em>late-night address.</em></p><div class="intro-bottom"><p>No white tablecloths. No tasting menus. Just honest Indian cooking, a tiny open kitchen and a room built for people who came for one plate and stayed for five.</p><a href="#visit">Come see the room →</a></div></div>
+</section>
+
+<section class="menu-section" id="menu">
+  <div class="menu-head"><div><p class="eyebrow">03 / TONIGHT'S MENU</p><h2>Order for the<br><em>whole table.</em></h2></div><div class="menu-side"><span>09 DISHES</span><p>Small plates first.<br>Always.</p></div></div>
+  <div class="filter-row" role="tablist" aria-label="Filter dishes">
+    <button class="filter active" data-filter="all">All <b>09</b></button><button class="filter" data-filter="small">Small plates <b>03</b></button><button class="filter" data-filter="mains">Mains <b>03</b></button><button class="filter" data-filter="sweet">Sweet <b>03</b></button>
+  </div>
+  <div id="dishGrid" class="dish-grid"></div>
+</section>
+
+<section class="special">
+  <div class="special-copy"><p class="eyebrow">04 / TONIGHT'S SPECIAL</p><span class="special-number">09</span><h2>Black pepper<br><em>mutton curry.</em></h2><p>Slow-cooked for six hours. Black pepper, fried onion, whole spices. Best with a pile of hot roomali roti.</p><button class="primary light" data-open-special>See the plate <span>↗</span></button></div>
+  <div class="special-photo"><span>CHEF'S PICK</span></div>
+</section>
+
+<section class="details-band">
+  <div><span>TUE — THU</span><strong>18:00</strong><small>FIRST POUR</small></div>
+  <p>“Come hungry. The room<br>does the rest.”</p>
+  <div><span>FRI — SUN</span><strong>23:00</strong><small>LAST PLATE</small></div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="visit-head"><p class="eyebrow">05 / FIND US</p><h2>Down the lane.<br><em>Follow the smell.</em></h2></div>
+  <div class="visit-grid">
+    <div class="map-card"><div class="map-grid"></div><div class="road road-a"></div><div class="road road-b"></div><div class="road road-c"></div><div class="map-pin">K</div><span class="map-label">KHAN MARKET</span><span class="map-sub">MIDDLE LANE</span><span class="coords">28.55° N<br>77.23° E</span></div>
+    <div class="visit-info">
+      <div class="info-block"><span>LOCATION</span><strong>18A, Middle Lane<br>Khan Market, New Delhi 110003</strong><a href="https://maps.google.com/?q=Khan+Market+New+Delhi" target="_blank" rel="noreferrer">Open in Maps ↗</a></div>
+      <div class="info-block"><span>HOURS</span><strong>Tue — Thu · 6 PM — 11 PM<br>Fri — Sun · 12 PM — 3 PM / 6 PM — 11 PM<br>Monday · Closed</strong></div>
+      <div class="info-block" id="contact"><span>CONTACT</span><strong><a href="tel:+911145678901">+91 11 4567 8901</a><br><a href="mailto:hello@kadhairoom.in">hello@kadhairoom.in</a></strong></div>
+      <button class="primary wide" data-open-booking>Book a table <span>↗</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="last-call"><div><span class="eyebrow">06 / ONE MORE THING</span><h2>Bring your<br><em>favourite people.</em></h2></div><p>Birthday? First date? Tuesday? We don't need a reason. There is always room for one more plate.</p><button class="outline" data-open-booking>Make it a dinner <span>↗</span></button></section>
+</main>
+
+<footer><div class="footer-main"><a class="logo footer-logo" href="#top"><span class="logo-mark">K</span><span>KADHAI<br><i>ROOM</i></span></a><p>Indian food.<br>Delhi mood.</p><div class="footer-links"><a href="#menu">Menu</a><a href="#story">Story</a><a href="#visit">Visit</a><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a></div></div><div class="footer-bottom"><span>© 2026 KADHAI ROOM</span><span>18A MIDDLE LANE / NEW DELHI</span><span>MADE FOR HUNGRY PEOPLE</span></div></footer>
+
+<div class="modal" id="booking" aria-hidden="true"><div class="modal-box"><button class="close" data-close-booking aria-label="Close">×</button><p class="eyebrow">TABLE REQUEST</p><h2>Save me<br><em>a seat.</em></h2><form id="bookingForm"><label>Date<input id="date" type="date" required></label><label>Guests<select id="guests"><option>2 people</option><option>3 people</option><option>4 people</option><option>5+ people</option></select></label><label>Time<select id="time"><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option><option>9:30 PM</option></select></label><button class="primary wide" type="submit">Request reservation <span>→</span></button></form><div class="success" id="bookingSuccess"><span class="success-mark">✓</span><h3>You're on the list.</h3><p>Request received. We'll see you at the little room.</p><button class="text-link" data-close-booking>Back to the room →</button></div></div></div>
+
+<div class="modal" id="dishModal" aria-hidden="true"><div class="modal-box dish-modal"><button class="close" data-close-dish aria-label="Close">×</button><p class="eyebrow">FROM THE KITCHEN</p><div id="dishModalImage" class="dish-modal-image"></div><div class="dish-modal-meta"><h2 id="dishModalTitle">Dish</h2><strong id="dishModalPrice">₹000</strong></div><p id="dishModalDesc"></p><button class="primary wide" data-open-booking>Book a table <span>↗</span></button></div></div>
+
+<script src="script.js"></script>
+</body></html>
